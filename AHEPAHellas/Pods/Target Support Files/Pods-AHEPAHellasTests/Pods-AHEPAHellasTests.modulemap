@@ -1,0 +1,6 @@
+framework module Pods_AHEPAHellasTests {
+  umbrella header "Pods-AHEPAHellasTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

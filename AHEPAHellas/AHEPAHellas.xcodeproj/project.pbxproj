@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC9079E5F67006591A84056 /* Pods_AHEPAHellas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E718C0A72D5110A4CD7E6D4 /* Pods_AHEPAHellas.framework */; };
+		3A30DA7349E9911211406F85 /* Pods_AHEPAHellasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEA1B434C9893C429C6D6D6 /* Pods_AHEPAHellasTests.framework */; };
+		77AD6A34BD9DB0DC12AE6E1A /* Pods_AHEPAHellas_AHEPAHellasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AEF083C46F5D8649D4FA99 /* Pods_AHEPAHellas_AHEPAHellasUITests.framework */; };
+		D609964B263B61CE001183E4 /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = D609964A263B61CE001183E4 /* SWXMLHash */; };
+		D62730962337E5DD0057A92B /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62730952337E5DD0057A92B /* LeftMenuViewController.swift */; };
+		D627309B2337FA3E0057A92B /* patmos.gif in Resources */ = {isa = PBXBuildFile; fileRef = D627309A2337FA3E0057A92B /* patmos.gif */; };
+		D63583691D79CD960084EB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63583681D79CD960084EB52 /* AppDelegate.swift */; };
+		D63583701D79CD960084EB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D635836E1D79CD960084EB52 /* Main.storyboard */; };
+		D63583801D79CD960084EB52 /* AHEPAHellasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635837F1D79CD960084EB52 /* AHEPAHellasTests.swift */; };
+		D635838B1D79CD960084EB52 /* AHEPAHellasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D635838A1D79CD960084EB52 /* AHEPAHellasUITests.swift */; };
+		D65544771E7AA0D9006ADBFC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65544761E7AA0D9006ADBFC /* Media.xcassets */; };
+		D66E3FAE263AEE43006AA157 /* RSSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E3FAD263AEE43006AA157 /* RSSModel.swift */; };
+		D66E3FB4263AEEF2006AA157 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E3FB3263AEEF2006AA157 /* APIManager.swift */; };
+		D67997EB263CAF5B00A628B9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67997EA263CAF5B00A628B9 /* MainViewController.swift */; };
+		D6855190233801D90086F69E /* AHEPAChapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685518F233801D90086F69E /* AHEPAChapters.swift */; };
+		D6855193233804170086F69E /* AHEPACell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6855191233804170086F69E /* AHEPACell.swift */; };
+		D6855194233804170086F69E /* AHEPACell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6855192233804170086F69E /* AHEPACell.xib */; };
+		D685519623380EBB0086F69E /* AHEPANews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685519523380EBB0086F69E /* AHEPANews.swift */; };
+		D6855198233814500086F69E /* AHEPAVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6855197233814500086F69E /* AHEPAVideos.swift */; };
+		D685519A233816C90086F69E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6855199233816C90086F69E /* LaunchScreen.storyboard */; };
+		D6924E5E233B6258001114E9 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6924E5D233B6258001114E9 /* History.swift */; };
+		D6924E60233B636C001114E9 /* history.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D6924E5F233B636C001114E9 /* history.mp4 */; };
+		D6AA39A3263B636F00F84495 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = D6AA39A2263B636F00F84495 /* SwiftyGif */; };
+		D6C17467263B72E60032B83D /* AHEPAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C17466263B72E60032B83D /* AHEPAViewModel.swift */; };
+		D6DAA327263B66B300E9AE71 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = D6DAA326263B66B300E9AE71 /* Toast */; };
+		D6F94E8C263B5C5D00FEDF88 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D6F94E8B263B5C5D00FEDF88 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D635837C1D79CD960084EB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D635835D1D79CD960084EB52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63583641D79CD960084EB52;
+			remoteInfo = AHEPAHellas;
+		};
+		D63583871D79CD960084EB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D635835D1D79CD960084EB52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D63583641D79CD960084EB52;
+			remoteInfo = AHEPAHellas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AEF083C46F5D8649D4FA99 /* Pods_AHEPAHellas_AHEPAHellasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHEPAHellas_AHEPAHellasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1654926A9A281711A9B91968 /* Pods-AHEPAHellas-AHEPAHellasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHEPAHellas-AHEPAHellasUITests.release.xcconfig"; path = "Target Support Files/Pods-AHEPAHellas-AHEPAHellasUITests/Pods-AHEPAHellas-AHEPAHellasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E718C0A72D5110A4CD7E6D4 /* Pods_AHEPAHellas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHEPAHellas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AEA1B434C9893C429C6D6D6 /* Pods_AHEPAHellasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHEPAHellasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		503DB19C7C6D2F355AB1BC7F /* Pods-AHEPAHellasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHEPAHellasTests.release.xcconfig"; path = "Target Support Files/Pods-AHEPAHellasTests/Pods-AHEPAHellasTests.release.xcconfig"; sourceTree = "<group>"; };
+		59282ECBED8C838974E50129 /* Pods-AHEPAHellas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHEPAHellas.release.xcconfig"; path = "Target Support Files/Pods-AHEPAHellas/Pods-AHEPAHellas.release.xcconfig"; sourceTree = "<group>"; };
+		99C533B06BD25E88494AD87F /* Pods-AHEPAHellas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHEPAHellas.debug.xcconfig"; path = "Target Support Files/Pods-AHEPAHellas/Pods-AHEPAHellas.debug.xcconfig"; sourceTree = "<group>"; };
+		B80DF722CE653CC4333A9A9E /* Pods-AHEPAHellasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHEPAHellasTests.debug.xcconfig"; path = "Target Support Files/Pods-AHEPAHellasTests/Pods-AHEPAHellasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D62730952337E5DD0057A92B /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		D627309A2337FA3E0057A92B /* patmos.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = patmos.gif; path = AHEPAHellas/Interface/patmos.gif; sourceTree = SOURCE_ROOT; };
+		D63583651D79CD960084EB52 /* AHEPAHellas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHEPAHellas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63583681D79CD960084EB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D635836F1D79CD960084EB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63583761D79CD960084EB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D635837B1D79CD960084EB52 /* AHEPAHellasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHEPAHellasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D635837F1D79CD960084EB52 /* AHEPAHellasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAHellasTests.swift; sourceTree = "<group>"; };
+		D63583811D79CD960084EB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63583861D79CD960084EB52 /* AHEPAHellasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHEPAHellasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D635838A1D79CD960084EB52 /* AHEPAHellasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAHellasUITests.swift; sourceTree = "<group>"; };
+		D635838C1D79CD960084EB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65544761E7AA0D9006ADBFC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		D66E3FAD263AEE43006AA157 /* RSSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSModel.swift; sourceTree = "<group>"; };
+		D66E3FB3263AEEF2006AA157 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D67997EA263CAF5B00A628B9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D685518F233801D90086F69E /* AHEPAChapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAChapters.swift; sourceTree = "<group>"; };
+		D6855191233804170086F69E /* AHEPACell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPACell.swift; sourceTree = "<group>"; };
+		D6855192233804170086F69E /* AHEPACell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AHEPACell.xib; sourceTree = "<group>"; };
+		D685519523380EBB0086F69E /* AHEPANews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPANews.swift; sourceTree = "<group>"; };
+		D6855197233814500086F69E /* AHEPAVideos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAVideos.swift; sourceTree = "<group>"; };
+		D6855199233816C90086F69E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6924E5D233B6258001114E9 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		D6924E5F233B636C001114E9 /* history.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = history.mp4; sourceTree = "<group>"; };
+		D6C17466263B72E60032B83D /* AHEPAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHEPAViewModel.swift; sourceTree = "<group>"; };
+		D6DC31F01D7A487B00914721 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/AHEPAHellas-crbowfwewvjqifbhbdbqhvmbwaws/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<group>"; };
+		D6DC31F11D7A487B00914721 /* TIFeedParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TIFeedParser.framework; path = "../../Library/Developer/Xcode/DerivedData/AHEPAHellas-crbowfwewvjqifbhbdbqhvmbwaws/Build/Products/Debug-iphonesimulator/TIFeedParser.framework"; sourceTree = "<group>"; };
+		F6846EE0D247104B2D8AC62A /* Pods-AHEPAHellas-AHEPAHellasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHEPAHellas-AHEPAHellasUITests.debug.xcconfig"; path = "Target Support Files/Pods-AHEPAHellas-AHEPAHellasUITests/Pods-AHEPAHellas-AHEPAHellasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63583621D79CD960084EB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAA327263B66B300E9AE71 /* Toast in Frameworks */,
+				D609964B263B61CE001183E4 /* SWXMLHash in Frameworks */,
+				D6F94E8C263B5C5D00FEDF88 /* Alamofire in Frameworks */,
+				D6AA39A3263B636F00F84495 /* SwiftyGif in Frameworks */,
+				2AC9079E5F67006591A84056 /* Pods_AHEPAHellas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63583781D79CD960084EB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A30DA7349E9911211406F85 /* Pods_AHEPAHellasTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63583831D79CD960084EB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AD6A34BD9DB0DC12AE6E1A /* Pods_AHEPAHellas_AHEPAHellasUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2525D765FA7D09508A89ABFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6DC31F01D7A487B00914721 /* Alamofire.framework */,
+				D6DC31F11D7A487B00914721 /* TIFeedParser.framework */,
+				2E718C0A72D5110A4CD7E6D4 /* Pods_AHEPAHellas.framework */,
+				04AEF083C46F5D8649D4FA99 /* Pods_AHEPAHellas_AHEPAHellasUITests.framework */,
+				3AEA1B434C9893C429C6D6D6 /* Pods_AHEPAHellasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D62730942337E5B00057A92B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D62730952337E5DD0057A92B /* LeftMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D635835C1D79CD950084EB52 = {
+			isa = PBXGroup;
+			children = (
+				D63583671D79CD960084EB52 /* AHEPAHellas */,
+				D635837E1D79CD960084EB52 /* AHEPAHellasTests */,
+				D63583891D79CD960084EB52 /* AHEPAHellasUITests */,
+				D63583661D79CD960084EB52 /* Products */,
+				2525D765FA7D09508A89ABFA /* Frameworks */,
+				FC9BB18BAE15AEB58B35FC71 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D63583661D79CD960084EB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63583651D79CD960084EB52 /* AHEPAHellas.app */,
+				D635837B1D79CD960084EB52 /* AHEPAHellasTests.xctest */,
+				D63583861D79CD960084EB52 /* AHEPAHellasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63583671D79CD960084EB52 /* AHEPAHellas */ = {
+			isa = PBXGroup;
+			children = (
+				D6C1746B263B72EC0032B83D /* ViewModel */,
+				D66E3FB2263AEEE3006AA157 /* APIManager */,
+				D66710E823ABC18600147283 /* Interface */,
+				D6C11E672337CEE000DA3584 /* ViewController */,
+				D6C11E662337CEDA00DA3584 /* View */,
+				D6C11E652337CED300DA3584 /* Model */,
+				D63583681D79CD960084EB52 /* AppDelegate.swift */,
+				D63583761D79CD960084EB52 /* Info.plist */,
+			);
+			path = AHEPAHellas;
+			sourceTree = "<group>";
+		};
+		D635837E1D79CD960084EB52 /* AHEPAHellasTests */ = {
+			isa = PBXGroup;
+			children = (
+				D635837F1D79CD960084EB52 /* AHEPAHellasTests.swift */,
+				D63583811D79CD960084EB52 /* Info.plist */,
+			);
+			path = AHEPAHellasTests;
+			sourceTree = "<group>";
+		};
+		D63583891D79CD960084EB52 /* AHEPAHellasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D635838A1D79CD960084EB52 /* AHEPAHellasUITests.swift */,
+				D635838C1D79CD960084EB52 /* Info.plist */,
+			);
+			path = AHEPAHellasUITests;
+			sourceTree = "<group>";
+		};
+		D66710E823ABC18600147283 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D6924E5F233B636C001114E9 /* history.mp4 */,
+				D627309A2337FA3E0057A92B /* patmos.gif */,
+				D635836E1D79CD960084EB52 /* Main.storyboard */,
+				D65544761E7AA0D9006ADBFC /* Media.xcassets */,
+				D6855199233816C90086F69E /* LaunchScreen.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		D66E3FB2263AEEE3006AA157 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				D66E3FB3263AEEF2006AA157 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		D67997E9263CAEA900A628B9 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D67997EA263CAF5B00A628B9 /* MainViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		D6924E5C233B61FF001114E9 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				D6924E5D233B6258001114E9 /* History.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		D6C11E652337CED300DA3584 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D66E3FAD263AEE43006AA157 /* RSSModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6C11E662337CEDA00DA3584 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6855191233804170086F69E /* AHEPACell.swift */,
+				D6855192233804170086F69E /* AHEPACell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6C11E672337CEE000DA3584 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D67997E9263CAEA900A628B9 /* MainViewController */,
+				D6924E5C233B61FF001114E9 /* History */,
+				D62730942337E5B00057A92B /* Menu */,
+				D6C11E6B2337CF7900DA3584 /* News */,
+				D6C11E6A2337CF1000DA3584 /* Chapters */,
+				D6C11E682337CEEC00DA3584 /* Videos */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D6C11E682337CEEC00DA3584 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				D6855197233814500086F69E /* AHEPAVideos.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		D6C11E6A2337CF1000DA3584 /* Chapters */ = {
+			isa = PBXGroup;
+			children = (
+				D685518F233801D90086F69E /* AHEPAChapters.swift */,
+			);
+			path = Chapters;
+			sourceTree = "<group>";
+		};
+		D6C11E6B2337CF7900DA3584 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				D685519523380EBB0086F69E /* AHEPANews.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		D6C1746B263B72EC0032B83D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6C17466263B72E60032B83D /* AHEPAViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC9BB18BAE15AEB58B35FC71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99C533B06BD25E88494AD87F /* Pods-AHEPAHellas.debug.xcconfig */,
+				59282ECBED8C838974E50129 /* Pods-AHEPAHellas.release.xcconfig */,
+				F6846EE0D247104B2D8AC62A /* Pods-AHEPAHellas-AHEPAHellasUITests.debug.xcconfig */,
+				1654926A9A281711A9B91968 /* Pods-AHEPAHellas-AHEPAHellasUITests.release.xcconfig */,
+				B80DF722CE653CC4333A9A9E /* Pods-AHEPAHellasTests.debug.xcconfig */,
+				503DB19C7C6D2F355AB1BC7F /* Pods-AHEPAHellasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63583641D79CD960084EB52 /* AHEPAHellas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D635838F1D79CD960084EB52 /* Build configuration list for PBXNativeTarget "AHEPAHellas" */;
+			buildPhases = (
+				0362D327776379BCAEF7D9D9 /* [CP] Check Pods Manifest.lock */,
+				D63583611D79CD960084EB52 /* Sources */,
+				D63583621D79CD960084EB52 /* Frameworks */,
+				D63583631D79CD960084EB52 /* Resources */,
+				16B0BA9E76243F28526BD8BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHEPAHellas;
+			packageProductDependencies = (
+				D6F94E8B263B5C5D00FEDF88 /* Alamofire */,
+				D609964A263B61CE001183E4 /* SWXMLHash */,
+				D6AA39A2263B636F00F84495 /* SwiftyGif */,
+				D6DAA326263B66B300E9AE71 /* Toast */,
+			);
+			productName = AHEPAHellas;
+			productReference = D63583651D79CD960084EB52 /* AHEPAHellas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D635837A1D79CD960084EB52 /* AHEPAHellasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63583921D79CD960084EB52 /* Build configuration list for PBXNativeTarget "AHEPAHellasTests" */;
+			buildPhases = (
+				E551DD4A50338E601A2DC360 /* [CP] Check Pods Manifest.lock */,
+				D63583771D79CD960084EB52 /* Sources */,
+				D63583781D79CD960084EB52 /* Frameworks */,
+				D63583791D79CD960084EB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D635837D1D79CD960084EB52 /* PBXTargetDependency */,
+			);
+			name = AHEPAHellasTests;
+			productName = AHEPAHellasTests;
+			productReference = D635837B1D79CD960084EB52 /* AHEPAHellasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D63583851D79CD960084EB52 /* AHEPAHellasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63583951D79CD960084EB52 /* Build configuration list for PBXNativeTarget "AHEPAHellasUITests" */;
+			buildPhases = (
+				EC05188F3A584B69C4035461 /* [CP] Check Pods Manifest.lock */,
+				D63583821D79CD960084EB52 /* Sources */,
+				D63583831D79CD960084EB52 /* Frameworks */,
+				D63583841D79CD960084EB52 /* Resources */,
+				192834A80DDBF95EF0BF4741 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D63583881D79CD960084EB52 /* PBXTargetDependency */,
+			);
+			name = AHEPAHellasUITests;
+			productName = AHEPAHellasUITests;
+			productReference = D63583861D79CD960084EB52 /* AHEPAHellasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D635835D1D79CD960084EB52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Angelos Staboulis";
+				TargetAttributes = {
+					D63583641D79CD960084EB52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K6LJCT8RAA;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+					D635837A1D79CD960084EB52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = D63583641D79CD960084EB52;
+					};
+					D63583851D79CD960084EB52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = D63583641D79CD960084EB52;
+					};
+				};
+			};
+			buildConfigurationList = D63583601D79CD960084EB52 /* Build configuration list for PBXProject "AHEPAHellas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = D635835C1D79CD950084EB52;
+			packageReferences = (
+				D6F94E8A263B5C5D00FEDF88 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D6099649263B61CE001183E4 /* XCRemoteSwiftPackageReference "SWXMLHash" */,
+				D6AA39A1263B636F00F84495 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+				D6DAA325263B66B300E9AE71 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
+			productRefGroup = D63583661D79CD960084EB52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63583641D79CD960084EB52 /* AHEPAHellas */,
+				D635837A1D79CD960084EB52 /* AHEPAHellasTests */,
+				D63583851D79CD960084EB52 /* AHEPAHellasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63583631D79CD960084EB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6924E60233B636C001114E9 /* history.mp4 in Resources */,
+				D65544771E7AA0D9006ADBFC /* Media.xcassets in Resources */,
+				D627309B2337FA3E0057A92B /* patmos.gif in Resources */,
+				D63583701D79CD960084EB52 /* Main.storyboard in Resources */,
+				D685519A233816C90086F69E /* LaunchScreen.storyboard in Resources */,
+				D6855194233804170086F69E /* AHEPACell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63583791D79CD960084EB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63583841D79CD960084EB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0362D327776379BCAEF7D9D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHEPAHellas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16B0BA9E76243F28526BD8BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHEPAHellas/Pods-AHEPAHellas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AKSideMenu/AKSideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKSideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHEPAHellas/Pods-AHEPAHellas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		192834A80DDBF95EF0BF4741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHEPAHellas-AHEPAHellasUITests/Pods-AHEPAHellas-AHEPAHellasUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AKSideMenu/AKSideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKSideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHEPAHellas-AHEPAHellasUITests/Pods-AHEPAHellas-AHEPAHellasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E551DD4A50338E601A2DC360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHEPAHellasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC05188F3A584B69C4035461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHEPAHellas-AHEPAHellasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63583611D79CD960084EB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C17467263B72E60032B83D /* AHEPAViewModel.swift in Sources */,
+				D6924E5E233B6258001114E9 /* History.swift in Sources */,
+				D685519623380EBB0086F69E /* AHEPANews.swift in Sources */,
+				D67997EB263CAF5B00A628B9 /* MainViewController.swift in Sources */,
+				D6855193233804170086F69E /* AHEPACell.swift in Sources */,
+				D63583691D79CD960084EB52 /* AppDelegate.swift in Sources */,
+				D66E3FB4263AEEF2006AA157 /* APIManager.swift in Sources */,
+				D6855198233814500086F69E /* AHEPAVideos.swift in Sources */,
+				D62730962337E5DD0057A92B /* LeftMenuViewController.swift in Sources */,
+				D66E3FAE263AEE43006AA157 /* RSSModel.swift in Sources */,
+				D6855190233801D90086F69E /* AHEPAChapters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63583771D79CD960084EB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63583801D79CD960084EB52 /* AHEPAHellasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63583821D79CD960084EB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D635838B1D79CD960084EB52 /* AHEPAHellasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D635837D1D79CD960084EB52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63583641D79CD960084EB52 /* AHEPAHellas */;
+			targetProxy = D635837C1D79CD960084EB52 /* PBXContainerItemProxy */;
+		};
+		D63583881D79CD960084EB52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D63583641D79CD960084EB52 /* AHEPAHellas */;
+			targetProxy = D63583871D79CD960084EB52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D635836E1D79CD960084EB52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D635836F1D79CD960084EB52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D635838D1D79CD960084EB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: angeloskomotini@gmail.com (7T2327DK4M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Angelos Staboulis (7T2327DK4M)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D635838E1D79CD960084EB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: angeloskomotini@gmail.com (7T2327DK4M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Angelos Staboulis (7T2327DK4M)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63583901D79CD960084EB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C533B06BD25E88494AD87F /* Pods-AHEPAHellas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Angelos Staboulis (K6LJCT8RAA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Angelos Staboulis (K6LJCT8RAA)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = AHEPAHellas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.astaboulis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "72de2ead-c94f-4224-afdf-46b79e905013";
+				PROVISIONING_PROFILE_SPECIFIER = AHEPAHellas;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63583911D79CD960084EB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59282ECBED8C838974E50129 /* Pods-AHEPAHellas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Angelos Staboulis (K6LJCT8RAA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Angelos Staboulis (K6LJCT8RAA)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				INFOPLIST_FILE = AHEPAHellas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.astaboulis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "72de2ead-c94f-4224-afdf-46b79e905013";
+				PROVISIONING_PROFILE_SPECIFIER = AHEPAHellas;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D63583931D79CD960084EB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80DF722CE653CC4333A9A9E /* Pods-AHEPAHellasTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AHEPAHellasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHEPAHellasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHEPAHellas.app/AHEPAHellas";
+			};
+			name = Debug;
+		};
+		D63583941D79CD960084EB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503DB19C7C6D2F355AB1BC7F /* Pods-AHEPAHellasTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AHEPAHellasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHEPAHellasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHEPAHellas.app/AHEPAHellas";
+			};
+			name = Release;
+		};
+		D63583961D79CD960084EB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6846EE0D247104B2D8AC62A /* Pods-AHEPAHellas-AHEPAHellasUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AHEPAHellasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHEPAHellasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = AHEPAHellas;
+			};
+			name = Debug;
+		};
+		D63583971D79CD960084EB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1654926A9A281711A9B91968 /* Pods-AHEPAHellas-AHEPAHellasUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AHEPAHellasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHEPAHellasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = AHEPAHellas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63583601D79CD960084EB52 /* Build configuration list for PBXProject "AHEPAHellas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D635838D1D79CD960084EB52 /* Debug */,
+				D635838E1D79CD960084EB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D635838F1D79CD960084EB52 /* Build configuration list for PBXNativeTarget "AHEPAHellas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63583901D79CD960084EB52 /* Debug */,
+				D63583911D79CD960084EB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63583921D79CD960084EB52 /* Build configuration list for PBXNativeTarget "AHEPAHellasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63583931D79CD960084EB52 /* Debug */,
+				D63583941D79CD960084EB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63583951D79CD960084EB52 /* Build configuration list for PBXNativeTarget "AHEPAHellasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63583961D79CD960084EB52 /* Debug */,
+				D63583971D79CD960084EB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6099649263B61CE001183E4 /* XCRemoteSwiftPackageReference "SWXMLHash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/drmohundro/SWXMLHash.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		D6AA39A1263B636F00F84495 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		D6DAA325263B66B300E9AE71 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		D6F94E8A263B5C5D00FEDF88 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D609964A263B61CE001183E4 /* SWXMLHash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6099649263B61CE001183E4 /* XCRemoteSwiftPackageReference "SWXMLHash" */;
+			productName = SWXMLHash;
+		};
+		D6AA39A2263B636F00F84495 /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6AA39A1263B636F00F84495 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+		D6DAA326263B66B300E9AE71 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6DAA325263B66B300E9AE71 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		D6F94E8B263B5C5D00FEDF88 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6F94E8A263B5C5D00FEDF88 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D635835D1D79CD960084EB52 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - AKSideMenu (1.4.5)
+
+DEPENDENCIES:
+  - AKSideMenu
+
+SPEC REPOS:
+  trunk:
+    - AKSideMenu
+
+SPEC CHECKSUMS:
+  AKSideMenu: 2880c44ee04a68f40be783c5cb997b2e0ee22401
+
+PODFILE CHECKSUM: ad40497c402b6d37745ccf4afebed7c9632143e1
+
+COCOAPODS: 1.10.1
